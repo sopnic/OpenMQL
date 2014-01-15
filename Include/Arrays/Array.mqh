@@ -9,8 +9,7 @@
 //| Purpose: Base class of dynamic arrays.                           |
 //|          Derives from class CObject.                             |
 //+------------------------------------------------------------------+
-class CArray : public CObject
-  {
+class CArray : public CObject {
 protected:
    int               m_step_resize;      // increment size of the array
    int               m_data_total;       // number of elements
@@ -24,7 +23,7 @@ public:
    int               Step(void) const { return(m_step_resize); }
    bool              Step(const int step);
    int               Total(void) const { return(m_data_total); }
-   int               Available(void) const { return(m_data_max-m_data_total); }
+   int               Available(void) const { return(m_data_max - m_data_total); }
    int               Max(void) const { return(m_data_max); }
    bool              IsSorted(const int mode=0) const { return(m_sort_mode==mode); }
    int               SortMode(void) const { return(m_sort_mode); }
@@ -38,7 +37,7 @@ public:
 
 protected:
    virtual void      QuickSort(int beg,int end,const int mode=0) { }
-  };
+};
 //+------------------------------------------------------------------+
 //| Constructor                                                      |
 //+------------------------------------------------------------------+
@@ -74,33 +73,30 @@ bool CArray::Step(const int step)
 void CArray::Sort(const int mode)
   {
 //--- check
-   if(IsSorted(mode))
+   if (IsSorted(mode))
       return;
    m_sort_mode=mode;
-   if(m_data_total<=1)
+   if (m_data_total<=1)
       return;
 //--- sort
-   QuickSort(0,m_data_total-1,mode);
+   QuickSort(0, m_data_total - 1, mode);
   }
 //+------------------------------------------------------------------+
 //| Writing header of array to file                                  |
 //+------------------------------------------------------------------+
-bool CArray::Save(const int file_handle)
-  {
-//--- check handle
-   if(file_handle!=INVALID_HANDLE)
-     {
+bool CArray::Save(const int file_handle) {
+   // check handle
+   if (file_handle != INVALID_HANDLE) {
       //--- write start marker - 0xFFFFFFFFFFFFFFFF
-      if(FileWriteLong(file_handle,-1)==sizeof(long))
-        {
+      if (FileWriteLong(file_handle,-1) == sizeof(long)) {
          //--- write array type
-         if(FileWriteInteger(file_handle,Type(),INT_VALUE)==INT_VALUE)
+         if (FileWriteInteger(file_handle,Type(),INT_VALUE)==INT_VALUE)
             return(true);
         }
      }
 //--- failure
-   return(false);
-  }
+    return(false);
+}
 //+------------------------------------------------------------------+
 //| Reading header of array from file                                |
 //+------------------------------------------------------------------+
