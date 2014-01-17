@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{A95D9904-1E3D-4BBD-88DF-085131A75A0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A95D9904-1E3D-4BBD-88DF-085131A75A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95D9904-1E3D-4BBD-88DF-085131A75A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95D9904-1E3D-4BBD-88DF-085131A75A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95D9904-1E3D-4BBD-88DF-085131A75A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Interpreter\Interpreter.csproj
+	EndGlobalSection
+EndGlobal

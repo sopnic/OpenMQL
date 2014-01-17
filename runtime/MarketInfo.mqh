@@ -1,0 +1,13 @@
+    SymbolsTotal
+    SymbolName
+    SymbolSelect
+    SymbolIsSynchronized
+    SymbolInfoDouble
+    SymbolInfoInteger
+    SymbolInfoString
+    SymbolInfoTick
+    SymbolInfoSessionQuote
+    SymbolInfoSessionTrade
+    MarketBookAdd
+    MarketBookRelease
+    MarketBookGet

@@ -1,0 +1,16 @@
+SeriesInfoInteger
+Bars
+BarsCalculated
+IndicatorCreate
+IndicatorParameters
+IndicatorRelease
+CopyBuffer
+CopyRates
+CopyTime
+CopyOpen
+CopyHigh
+CopyLow
+CopyClose
+CopyTickVolume
+CopyRealVolume
+CopySpread

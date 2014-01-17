@@ -1,0 +1,4 @@
+    EventSetMillisecondTimer
+    EventSetTimer
+    EventKillTimer
+    EventChartCustom

@@ -1,0 +1,10 @@
+/home/alex/OpenMQL/Interpreter/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/alex/OpenMQL/Interpreter/bin/Debug/Interpreter.dll.mdb
+/home/alex/OpenMQL/Interpreter/bin/Debug/Interpreter.dll
+/home/alex/OpenMQL/Interpreter/obj/Debug/Interpreter.dll
+/home/alex/OpenMQL/Interpreter/obj/Debug/Interpreter.dll.mdb
+/home/alex/OpenMQL/Interpreter/bin/Debug/Interpreter.exe.mdb
+/home/alex/OpenMQL/Interpreter/bin/Debug/Interpreter.exe
+/home/alex/OpenMQL/Interpreter/obj/Debug/Interpreter.exe
+/home/alex/OpenMQL/Interpreter/obj/Debug/Interpreter.exe.mdb
+/home/alex/OpenMQL/Interpreter/bin/Debug/Antlr4.Runtime.v4.0.dll

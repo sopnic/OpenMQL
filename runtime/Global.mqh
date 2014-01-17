@@ -1,0 +1,11 @@
+    GlobalVariableCheck
+    GlobalVariableTime
+    GlobalVariableDel
+    GlobalVariableGet
+    GlobalVariableName
+    GlobalVariableSet
+    GlobalVariablesFlush
+    GlobalVariableTemp
+    GlobalVariableSetOnCondition
+    GlobalVariablesDeleteAll
+    GlobalVariablesTotal

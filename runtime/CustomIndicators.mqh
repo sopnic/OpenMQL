@@ -1,0 +1,8 @@
+SetIndexBuffer
+IndicatorSetDouble
+IndicatorSetInteger
+IndicatorSetString
+PlotIndexSetDouble
+PlotIndexSetInteger
+PlotIndexSetString
+PlotIndexGetInteger
